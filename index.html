@@ -6,11 +6,16 @@
     <title>TODO list</title>
     <style>
         h1 {
-            text-align: left;
+            text-align: center;
         }
 
         h3 {
-            text-transform: capitalize;
+            text-transform: uppercase;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
         }
 
         ul li {
@@ -20,6 +25,10 @@
             background: #eee;
             font-size: 18px;
             transition: 0.2s;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
 
         ul li:nth-child(odd) {
